@@ -4,3 +4,6 @@ require 'bundler/setup'
 Bundler.require(:default, ENV['SINATRA_ENV'])
 
 require './app'
+get '/' do 
+  "Started my server using Shotgun!"
+end
